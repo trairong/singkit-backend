@@ -14,9 +14,7 @@ async function bootstrap() {
     .addTag('cats')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document,{
-    swaggerOptions: { defaultModelsExpandDepth: -1 },
-  });
+  SwaggerModule.setup('api', app, document);
   
 
   await app.listen(4000);
