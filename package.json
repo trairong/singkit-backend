@@ -1,9 +1,9 @@
 {
   "name": "singkit-backend",
-  "version": "0.0.1",
+  "version": "2",
   "description": "",
   "author": "",
-  "private": true,
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
